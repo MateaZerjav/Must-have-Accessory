@@ -6,7 +6,7 @@ body {
 .navbar {
   margin: 0 auto;
   display: flex;
-  background-color: #ffc0cb;
+  background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   width: 100%;
   padding: 0;
@@ -18,41 +18,87 @@ body {
   display: flex;
 }
 .navbar li,
-a {
+.navbar a {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   padding-right: 90px;
   padding-left: 90px;
-  color: #ffd700;
-  font-size: 30px;
+  color: #b22222;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.container {
-  max-width: 800px;
+.box {
+  max-width: 900px;
   margin: 0 auto;
   display: block;
-  background-color: #ffc0cb;
+  background-color: #ffffff;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 h2 {
   font-family: "Oswald", sans-serif;
   color: #b22222;
-  font-size: 100px;
+  font-size: 50px;
+}
+.header {
+  color: #ffffff;
+  background: #b22222;
+  font-size: 80px;
 }
 
 h1 {
   font-family: "Caveat", cursive;
   color: #b22222;
-  font-weight: 700;
-  font-size: 200px;
   text-align: right;
+  font-size: 50px;
+  margin: 0;
 }
 p {
   color: #333333;
-  font-size: 23px;
+  font-size: 25px;
   padding: 40px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+}
+.lipstick img {
+  margin: 0 auto;
+  padding: 0;
+}
+.home {
+  margin-left: 80px;
+}
+.flex {
+  display: flex;
+}
+.header strong {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 150px;
+}
+.about i {
+  font-family: "Caveat", cursive;
+  color: #b22222;
+  font-size: 20px;
+  font-weight: 700;
+}
+.photo {
+  margin: 0 auto;
+  padding: 0;
+  width: 500px;
+}
+.contact p,
+a {
+  color: white;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  text-style: underline;
+  text-size: 10px;
+}
+.contact a {
+  text-style: underline;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
 }
