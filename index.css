@@ -13,21 +13,23 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  justify-content: center;
 }
 .navbar ul {
   display: flex;
 }
 .navbar li,
 .navbar a {
+  display: flex;
   margin: 0 auto;
   padding: 0;
+  padding-right: 20px;
   list-style: none;
-  padding-right: 90px;
-  padding-left: 90px;
   color: #b22222;
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
+  justify-content: space-around;
 }
 
 .box {
@@ -101,4 +103,17 @@ a {
   text-transform: uppercase;
   margin: 0 auto;
   padding: 0;
+}
+
+@media (max-width: 500px) {
+  .box {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .lipstick img {
+    width: 100px;
+  }
 }
