@@ -21,7 +21,162 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="./index.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: #b22222;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .navbar {
+        margin: 0 auto;
+        display: flex;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+        width: 100%;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: center;
+      }
+      .navbar ul {
+        display: flex;
+      }
+      .navbar li,
+      .navbar a {
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        padding-right: 20px;
+        list-style: none;
+        color: #b22222;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        justify-content: space-around;
+      }
+
+      .box {
+        margin: 0 auto;
+        display: block;
+        background-color: #ffffff;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+      h2 {
+        font-family: "Oswald", sans-serif;
+        color: #b22222;
+      }
+      .header {
+        color: #ffffff;
+        background: #b22222;
+        font-size: 150px;
+      }
+
+      h1 {
+        font-family: "Caveat", cursive;
+        color: #b22222;
+        text-align: right;
+        font-size: 50px;
+        margin: 0;
+      }
+      p {
+        color: #333333;
+        font-size: 25px;
+        padding: 40px;
+        letter-spacing: 3px;
+      }
+      .lipstick img {
+        margin: 0 auto;
+        padding: 0;
+      }
+      .home {
+        margin-left: 80px;
+      }
+      .flex {
+        display: flex;
+      }
+      .header strong {
+        font-family: "Caveat", cursive;
+        font-weight: 700;
+        font-size: 150px;
+      }
+      .about i {
+        font-family: "Caveat", cursive;
+        color: #b22222;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .photo {
+        margin: 0 auto;
+        padding: 0;
+        width: 500px;
+      }
+      .contact p,
+      a {
+        color: white;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        text-style: underline;
+        text-size: 10px;
+      }
+      .contact a {
+        text-style: underline;
+        text-transform: uppercase;
+        margin: 0 auto;
+        padding: 0;
+      }
+      @media (max-width: 1650px) {
+        .header {
+          font-size: 100px;
+        }
+        .header strong {
+          font-size: 110px;
+        }
+      }
+      @media (max-width: 900px) {
+        .box {
+          margin: 0 auto;
+          display: block;
+          background-color: #ffffff;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+        .responsive {
+          width: 230px;
+          height: 370px;
+          display: block;
+          aspect-ratio: 1/1;
+        }
+        .header {
+          font-size: 80px;
+        }
+        .header strong {
+          font-size: 90px;
+        }
+        .navbar li,
+        .navbar a {
+          font-size: 13px;
+        }
+        .contact p,
+        a {
+          margin: 0 auto;
+          padding: 15px;
+          text-size: 5px;
+        }
+      }
+
+      @media (max-width: 780px) {
+        .responsive {
+          display: none;
+        }
+        .header {
+          font-size: 50px;
+        }
+        .header strong {
+          font-size: 70px;
+        }
+      }
+    </style>
     <title>Must-have Accessory-Lipstick</title>
   </head>
   <body>
