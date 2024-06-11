@@ -120,7 +120,7 @@ a {
     display: block;
     aspect-ratio: 1/1;
   }
-  .header strong {
+  .header {
     font-size: 80px;
   }
   .navbar li,
@@ -138,5 +138,8 @@ a {
 @media (max-width: 780px) {
   .responsive {
     display: none;
+  }
+  .header {
+    font-size: 50px;
   }
 }
