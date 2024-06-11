@@ -33,7 +33,6 @@ body {
 }
 
 .box {
-  max-width: 900px;
   margin: 0 auto;
   display: block;
   background-color: #ffffff;
@@ -42,12 +41,11 @@ body {
 h2 {
   font-family: "Oswald", sans-serif;
   color: #b22222;
-  font-size: 50px;
 }
 .header {
   color: #ffffff;
   background: #b22222;
-  font-size: 80px;
+  font-size: 150px;
 }
 
 h1 {
@@ -104,16 +102,41 @@ a {
   margin: 0 auto;
   padding: 0;
 }
-
-@media (max-width: 500px) {
+@media (max-width: 1650px) {
+  .header {
+    font-size: 100px;
+  }
+}
+@media (max-width: 900px) {
   .box {
-    max-width: 300px;
     margin: 0 auto;
     display: block;
     background-color: #ffffff;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
-  .lipstick img {
-    width: 100px;
+  .responsive {
+    width: 230px;
+    height: 370px;
+    display: block;
+    aspect-ratio: 1/1;
+  }
+  .header strong {
+    font-size: 80px;
+  }
+  .navbar li,
+  .navbar a {
+    font-size: 13px;
+  }
+  .contact p,
+  a {
+    margin: 0 auto;
+    padding: 15px;
+    text-size: 5px;
+  }
+}
+
+@media (max-width: 780px) {
+  .responsive {
+    display: none;
   }
 }
